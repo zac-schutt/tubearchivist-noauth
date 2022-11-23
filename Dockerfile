@@ -1,3 +1,3 @@
 FROM bbilly1/tubearchivist
-RUN grep -vwE "auth_request" /etc/nginx/sites-available/default/nginx.conf > /etc/nginx/sites-available/default/nginx2.conf && rm /etc/nginx/sites-available/default/nginx.conf && mv /etc/nginx/sites-available/default/nginx2.conf /etc/nginx/sites-available/default/nginx.conf
+RUN grep -vwE "auth_request" /etc/nginx/sites-available/default > /etc/nginx/sites-available/default2 && rm /etc/nginx/sites-available/default && mv /etc/nginx/sites-available/default2 /etc/nginx/sites-available/default
 CMD ["./run.sh"]
