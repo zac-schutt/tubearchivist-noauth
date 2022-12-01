@@ -1,4 +1,4 @@
-FROM bbilly1/tubearchivist
+FROM bbilly1/tubearchivist:v0.2.4
 
 # Remove authentication from nginx configuration
 RUN grep -vwE "auth_request" /etc/nginx/sites-available/default > /etc/nginx/sites-available/default2
