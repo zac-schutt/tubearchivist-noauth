@@ -8,4 +8,4 @@ Full project readme available at [tubearchivist github](https://github.com/tubea
 
 Image available at [Docker Hub](https://hub.docker.com) as [zacschutt/tubearchivist-noauth](https://hub.docker.com/r/zacschutt/tubearchivist-noauth)
 
-Latest tubearchivist build version 0.30 
+Latest tubearchivist build version 0.3.0
